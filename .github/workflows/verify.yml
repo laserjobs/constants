@@ -23,14 +23,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run Alpha Derivation
-      run: python alpha_scaling.py
-
-    - name: Run Planck Constant Derivation
-      run: python planck_calc.py
-
-    - name: Run Zeta Constants Derivation
-      run: python zeta_constants.py
-
-    - name: Run Planck Constant Derivation
+    - name: Run Apéry Geometry Derivation
       run: python apery_universe.py
